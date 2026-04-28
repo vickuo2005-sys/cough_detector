@@ -1,0 +1,15 @@
+name: sound_detector_app
+description: A simple sound detection app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vibration: ^1.8.4
+
+flutter:
+  uses-material-design: true
